@@ -1,0 +1,183 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.close.data-v-04c35166 {
+  position: absolute;
+  top: 32rpx;
+  left: 24rpx;
+}
+.btns.data-v-04c35166 {
+  position: fixed;
+  bottom: 16rpx;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  width: 654rpx;
+  height: 80rpx;
+  background: #1799ff;
+  opacity: 1;
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  line-height: 80rpx;
+  color: white;
+  opacity: 1;
+  border-radius: 40rpx;
+}
+.btns image.data-v-04c35166 {
+  width: 32rpx;
+  height: 32rpx;
+}
+.btns text.data-v-04c35166 {
+  margin-left: 16rpx;
+}
+.textbox.data-v-04c35166 {
+  margin-left: 26rpx;
+}
+.textbox text.data-v-04c35166 {
+  height: 40rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  line-height: 40rpx;
+  color: #333333;
+  opacity: 1;
+}
+.textbox view.data-v-04c35166 {
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  line-height: 34rpx;
+  color: #999999;
+  opacity: 1;
+}
+.dzxz.data-v-04c35166 {
+  width: 48rpx;
+  height: 48rpx;
+}
+.boxsrs.data-v-04c35166 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.boxs.data-v-04c35166 {
+  padding: 31rpx 24rpx 32rpx 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 114rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  position: relative;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.bodysbox.data-v-04c35166 {
+  padding-left: 24rpx;
+  box-sizing: border-box;
+  min-height: 500rpx;
+  padding-bottom: 96rpx;
+}
+.address.data-v-04c35166 {
+  text-align: center;
+  width: 100%;
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  line-height: 112rpx;
+  color: black;
+  opacity: 1;
+}
+.head.data-v-04c35166 {
+  text-align: center;
+  width: 750rpx;
+  position: relative;
+  height: 112rpx;
+}
+input.data-v-04c35166::-webkit-input-placeholder {
+  color: #A3A9B3;
+  width: 4rpx;
+}
+input.data-v-04c35166 {
+  caret-color: #1799FF;
+  font-size: 29rpx;
+}
+page.data-v-04c35166,
+.app.data-v-04c35166 {
+  background-color: #FFFFFF;
+  height: 100%;
+}
+.box.data-v-04c35166 {
+  width: 100%;
+  height: 96rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  position: relative;
+}
+.box image.data-v-04c35166 {
+  position: absolute;
+  right: 0;
+  width: 48rpx;
+  height: 48rpx;
+}
+.box view.data-v-04c35166 {
+  width: 144rpx;
+  height: 96rpx;
+  font-size: 29rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  line-height: 96rpx;
+  color: #192a41;
+  opacity: 1;
+}
+.app.data-v-04c35166 {
+  padding: 20rpx 24rpx 0;
+  box-sizing: border-box;
+}
+

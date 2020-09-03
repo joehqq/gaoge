@@ -1,0 +1,67 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	 
+	"pages": [ //pages数组中第一项表示应用启动页,
+	{
+	    "path" : "pages/home/home",
+	    "style" : {
+			"navigationBarTitleText": "首页",
+			"navigationBarTextStyle": "black",
+			"enablePullDownRefresh": true
+		}
+	},
+		{
+            "path" : "pages/orders/orders",
+            "style" : {
+				"navigationBarTitleText": "我的订单",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": true
+			}
+        }
+        ,{
+            "path" : "pages/ditle/ditle",
+            "style" : {
+				"navigationBarTitleText": "订单详情",
+				"navigationBarTextStyle": "#fff",
+				"navigationBarBackgroundColor":"#1799FF"
+			}
+        }
+       
+        ,{
+            "path" : "pages/addressend/addressend",
+            "style" : {
+            	"navigationBarTitleText": "新增收货地址",
+            	"navigationBarTextStyle": "black"
+				
+            }
+        }
+        ,{
+            "path" : "pages/choice/choice",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/addaddress/addaddress",
+            "style" : {
+				"navigationBarTitleText": "新增收货地址",
+				"navigationBarTextStyle": "black"
+			}
+        }
+        ,{
+            "path" : "pages/submit/submit",
+            "style" : {
+				"navigationBarTitleText": "提交订单",
+				"navigationBarBackgroundColor":"#1799FF",
+				"navigationBarTextStyle": "#fff"
+			}
+        }
+    ],
+	"globalStyle": {
+	
+		"navigationBarTextStyle": "#fff",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#fff",
+		"backgroundColor": "#F8F8F8"
+	}
+}

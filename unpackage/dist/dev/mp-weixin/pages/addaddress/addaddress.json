@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "新增收货地址",
+  "navigationBarTextStyle": "black",
+  "usingComponents": {
+    "u-popup": "/uview-ui/components/u-popup/u-popup",
+    "u-radio-group": "/uview-ui/components/u-radio-group/u-radio-group",
+    "u-radio": "/uview-ui/components/u-radio/u-radio"
+  }
+}
